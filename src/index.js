@@ -1,4 +1,4 @@
-// eslint-disable no-unused-vars
+/* eslint-disable no-unused-vars */
 
 import Entry from './modules/Entry.js';
 import './styles.css';
