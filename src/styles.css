@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(143, 143, 143);
+  font-weight: 900;
+  padding-left: 6px;
+  font-size: 1.2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  margin: 20px;
+  font-size: 4rem;
+}
+
+#main-UI {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px;
+}
+
+#output-UI {
+  width: fit-content;
+  margin-right: 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-UI {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+#oui-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+#refresh-btn {
+  font-size: 1.25rem;
+  margin-left: 20px;
+  background-color: white;
+  height: 35px;
+  width: 100px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+#oui-scores {
+  outline: 4px dotted black;
+  margin-top: 20px;
+}
+
+#iui-title {
+  font-size: 2.2rem;
+}
+
+#iui-name {
+  margin-top: 20px;
+  height: 35px;
+  width: 300px;
+  outline: 2px solid black;
+  padding-left: 6px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+#iui-score {
+  margin-top: 20px;
+  height: 35px;
+  width: 300px;
+  outline: 2px solid black;
+  padding-left: 6px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+#submit-btn {
+  margin-top: 20px;
+  height: 37px;
+  width: 100px;
+  align-self: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  outline: 2px solid black;
+}
