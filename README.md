@@ -2,18 +2,14 @@
 A leaderboard webapp. Takes a player's name and score and adds to database. Displays database items. 
 
 Competencies:
-> Using callbacks and promises.
-
-> Demonstrate how to use proper ES6 syntax. 
-
-> Using ES6 modules to write modular JavaScript.
-
-> Using webpack to bundle JavaScript.
+- Using callbacks and promises.
+- Demonstrate how to use proper ES6 syntax. 
+- Using ES6 modules to write modular JavaScript.
+- Using webpack to bundle JavaScript.
 
 <br>
 
 ## Built With
-<hr>
 
 - JavaScript
 - HTML/CSS
@@ -24,12 +20,11 @@ Competencies:
 <br><br>
 
 ## Live Demo
-<hr>
 
 [Click here](https://botlhale-setou.github.io/mens-conference/index.html) to view live demo.<br><br>
 
 ## Setup
-<hr>
+
 
 To get a local copy up and running, follow these steps:
 1. Click **"Code"** button
@@ -43,7 +38,7 @@ To get a local copy up and running, follow these steps:
 
 
 ## Author
-<hr><br>
+<br>
 
 👤 **Botlhale Setou**
 - GitHub: https://github.com/Botlhale-Setou
@@ -52,7 +47,7 @@ To get a local copy up and running, follow these steps:
 
 <br><br>
 ## Show your support
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like my project! It really helps!
 
 <br>
 
