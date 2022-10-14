@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import './styles.css';
 import {fetchData} from './modules/interaction.js';
 import {addScore} from './modules/start.js';

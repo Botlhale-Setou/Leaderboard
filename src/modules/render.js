@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export const render = (scores) => {
     const outputDiv = document.querySelector('#oui-scores');
     outputDiv.innerText = '';
