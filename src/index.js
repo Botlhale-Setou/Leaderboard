@@ -1,12 +1,33 @@
-/* eslint-disable no-unused-vars */
-
-// import Entry from './modules/Entry.js';
 import './styles.css';
+import {fetchData} from './modules/interaction.js';
+import {addScore} from './modules/start.js';
+import {render} from './modules/render.js';
 
-const submitBtn = document.querySelector('#submit-btn');
-// const refreshBtn = document.querySelector('#refresh-btn');
-const scoresOutput = document.querySelector('#oui-scores');
+window.onload = async () => {
+    render(await fetchData());
+};
 
-submitBtn.addEventListener('click', () => {
-  scoresOutput.innerHTML = 'Hello World!';
+const refreshBtn = document.querySelector('#refresh-btn');
+refreshBtn.addEventListener('click', async () => {
+    const scorelist = await fetchData();
+    render(scorelist);
+});
+
+const form = document.querySelector('#inputForm');
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    console.log('kjhsfdjk');
+
+    const name = document.querySelectorAll('input')[0].value.trim();
+    const score = document.querySelectorAll('input')[1].value.trim();
+
+    const newScore = {
+        user: name,
+        score: score,
+    };
+
+    form.reset();
+
+    await addScore(newScore);
 });

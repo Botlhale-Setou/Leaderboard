@@ -1,16 +1,21 @@
 # **Leaderboard**
-A leaderboard webapp. Takes a player's name and score and adds to database. Displays database items. 
+A leaderboard webapp. Takes a player's name and score and adds to API database. Displays API database items. 
 
 Competencies:
 - Using callbacks and promises.
 - Demonstrate how to use proper ES6 syntax. 
 - Using ES6 modules to write modular JavaScript.
 - Using webpack to bundle JavaScript.
+- Sending and receiving data from an API.
+- Using API documentation.
+- Understanding and using JSON.
+- Making JavaScript code asynchronous.
 
 <br>
 
 ## Built With
 
+- Leaderboard API
 - JavaScript
 - HTML/CSS
 - Webpack
@@ -21,7 +26,7 @@ Competencies:
 
 ## Live Demo
 
-[Click here](https://botlhale-setou.github.io/mens-conference/index.html) to view live demo.<br><br>
+[Click here](https://botlhale-setou.github.io/leaderboard) to view live demo.<br><br>
 
 ## Setup
 
@@ -41,9 +46,9 @@ To get a local copy up and running, follow these steps:
 <br>
 
 👤 **Botlhale Setou**
-- GitHub: https://github.com/Botlhale-Setou
-- LinkedIn: https://www.linkedin.com/in/botlhalesetou/
-- Twitter: https://twitter.com/Botlhale_Setou
+- GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
+- LinkedIn: [@botlhalesetou]https://www.linkedin.com/in/botlhalesetou/
+- Twitter: [@Botlhale_Setou](https://twitter.com/Botlhale_Setou)
 
 <br><br>
 ## Show your support
