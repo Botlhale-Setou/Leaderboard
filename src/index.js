@@ -13,7 +13,7 @@ refreshBtn.addEventListener('click', async () => {
     render(scorelist);
 });
 
-const form = document.querySelector('#inputForm');
+const form = document.querySelector('.input-form');
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 

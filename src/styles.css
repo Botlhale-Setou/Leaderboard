@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ::placeholder {
@@ -20,7 +20,7 @@ body {
 
 #title {
   margin: 20px;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 #main-UI {
@@ -47,32 +47,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #refresh-btn {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   margin-left: 20px;
   background-color: white;
-  height: 35px;
+  height: 40px;
   width: 100px;
   font-weight: 600;
   border-radius: 10px;
+  outline: 2px solid black;
 }
 
 #oui-scores {
-  outline: 4px dotted black;
+  outline: 4px solid black;
   margin-top: 20px;
 }
 
+.entry:nth-child(odd) {
+  background-color: gray;
+}
+
 #iui-title {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
 }
 
 #iui-name {
   margin-top: 20px;
   height: 35px;
-  width: 300px;
+  width: 100%;
   outline: 2px solid black;
   padding-left: 6px;
   font-size: 1.2rem;
@@ -83,7 +88,7 @@ body {
 #iui-score {
   margin-top: 20px;
   height: 35px;
-  width: 300px;
+  width: 100%;
   outline: 2px solid black;
   padding-left: 6px;
   font-size: 1.2rem;
@@ -101,4 +106,18 @@ body {
   font-weight: 600;
   font-size: 1.3rem;
   outline: 2px solid black;
+}
+
+.entry {
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
 }
