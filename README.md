@@ -17,7 +17,9 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+**Leaderboard** is a website that displays scores submitted by different players. It also allows you to submit your score. 
+All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 - JavaScript
@@ -35,6 +37,7 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
 
 To get a local copy up and running, follow these steps:
 1. Click **"Code"** button
@@ -59,7 +62,6 @@ To get a local copy up and running, follow these steps:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Botlhale Setou**
 - GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
