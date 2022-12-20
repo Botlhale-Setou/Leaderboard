@@ -17,8 +17,6 @@ const form = document.querySelector('.input-form');
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    console.log('kjhsfdjk');
-
     const name = document.querySelectorAll('input')[0].value.trim();
     const score = document.querySelectorAll('input')[1].value.trim();
 
@@ -27,12 +25,7 @@ form.addEventListener('submit', async (e) => {
         score: score,
     };
 
-
-const submitBtn = document.querySelector('#submit-btn');
-const scoresOutput = document.querySelector('#oui-scores');
-
     form.reset();
-
 
     await addScore(newScore);
 });
