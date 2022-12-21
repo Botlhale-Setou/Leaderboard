@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
   <img src="https://static.vecteezy.com/system/resources/previews/009/315/016/original/winner-trophy-in-flat-style-free-png.png" alt="logo" width="140"  height="auto" />
   <br/>
@@ -37,6 +38,7 @@
 - JavaScript
 - Webpack
 - HTML/CSS
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -97,6 +99,7 @@ To run the project, execute the following command:
 
 ## 👥 Author <a name="authors"></a>
 
+
 👤 **Botlhale Setou**
 - GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
 - LinkedIn: [@botlhalesetou](https://www.linkedin.com/in/botlhalesetou/)
@@ -120,6 +123,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/Botlhale-Setou/leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## ⭐️ Show your support <a name="support"></a>
 

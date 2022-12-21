@@ -7,6 +7,6 @@ export const render = (scores) => {
     }
 
     scores.sort((a, b) => b.score - a.score).forEach((score) => {
-        outputDiv.innerHTML += `<p>${score.user}: ${score.score}</p>`;
+        outputDiv.innerHTML += `<p class="entry">&nbsp;&#9;${score.user}: ${score.score}</p>`;
     });
 };
