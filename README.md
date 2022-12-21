@@ -1,59 +1,101 @@
-# **Leaderboard**
-A leaderboard webapp. Takes a player's name and score and adds to API database. Displays API database items. 
+<a name="readme-top"></a>
 
-Competencies:
-- Using callbacks and promises.
-- Demonstrate how to use proper ES6 syntax. 
-- Using ES6 modules to write modular JavaScript.
-- Using webpack to bundle JavaScript.
-- Sending and receiving data from an API.
-- Using API documentation.
-- Understanding and using JSON.
-- Making JavaScript code asynchronous.
+<!-- TABLE OF CONTENTS -->
 
-<br>
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-- Leaderboard API
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Leaderboard <a name="about-project"></a>
+
+
+**Leaderboard** is a website that displays scores submitted by different players. It also allows you to submit your score. 
+All data is preserved thanks to the external Leaderboard API service.
+
+## 🛠 Built With <a name="built-with"></a>
 - JavaScript
-- HTML/CSS
 - Webpack
-- Linters (Lighthouse, Webhint, Stylelint, ESLint, NodeChecker)
-- Git Bash
-- VS Code
-<br><br>
+- HTML/CSS
 
-## Live Demo
+<!-- LIVE DEMO -->
 
-[Click here](https://botlhale-setou.github.io/leaderboard) to view live demo.<br><br>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Setup
+- [Live Demo Link](https://yourdeployedapplicationlink.com) currently unavailable.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 
 To get a local copy up and running, follow these steps:
 1. Click **"Code"** button
-2. Copy [**clone link**](https://github.com/Botlhale-Setou/Leaderboard.git)
+2. Copy [**clone link**](https://github.com/Botlhale-Setou/leaderboard.git)
 3. Open **Git Bash** or other terminal.
-4. Enter **cd [Local Workstation Path]**
-5. Enter **git clone [[Repo URL]](https://github.com/Botlhale-Setou/Leaderboard.git)**
-6. Enter **cd Leaderboard**
-7. Enter **npm start**
-<br><br><br>
+4. Navigate to desired projects folder.
+5. Enter 
+	```javascript
+	git clone https://github.com/Botlhale-Setou/leaderboard.git
+	```
 
+6. Enter 
+	```javascript
+	cd Leaderboard
+	```
 
-## Author
-<br>
+7. Enter 
+	```javascript
+	npm run start
+	```
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Botlhale Setou**
 - GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
-- LinkedIn: [@botlhalesetou]https://www.linkedin.com/in/botlhalesetou/
+- LinkedIn: [@botlhalesetou](https://www.linkedin.com/in/botlhalesetou/)
 - Twitter: [@Botlhale_Setou](https://twitter.com/Botlhale_Setou)
 
-<br><br>
-## Show your support
-Give a ⭐️ if you like my project! It really helps!
 
-<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Copyright (c) 2022 Botlhale Setou](./LICENSE)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Botlhale-Setou/leaderboard/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a star!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
