@@ -1,59 +1,139 @@
-# **Leaderboard**
-A leaderboard webapp. Takes a player's name and score and adds to API database. Displays API database items. 
+<a name="readme-top"></a>
 
-Competencies:
-- Using callbacks and promises.
-- Demonstrate how to use proper ES6 syntax. 
-- Using ES6 modules to write modular JavaScript.
-- Using webpack to bundle JavaScript.
-- Sending and receiving data from an API.
-- Using API documentation.
-- Understanding and using JSON.
-- Making JavaScript code asynchronous.
+<div align="center">
+  <img src="https://static.vecteezy.com/system/resources/previews/009/315/016/original/winner-trophy-in-flat-style-free-png.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-<br>
+  <h3><b>Leaderboard</b></h3>
 
-## Built With
+</div>
 
-- Leaderboard API
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+# 📖 Leaderboard <a name="about-project"></a>
+
+**Leaderboard** is a website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+## 🛠 Built With <a name="built-with"></a>
 - JavaScript
-- HTML/CSS
 - Webpack
-- Linters (Lighthouse, Webhint, Stylelint, ESLint, NodeChecker)
-- Git Bash
-- VS Code
-<br><br>
+- HTML/CSS
 
-## Live Demo
-
-[Click here](https://botlhale-setou.github.io/leaderboard) to view live demo.<br><br>
-
-## Setup
+### Key Features <a name="key-features"></a>
 
 
-To get a local copy up and running, follow these steps:
-1. Click **"Code"** button
-2. Copy [**clone link**](https://github.com/Botlhale-Setou/Leaderboard.git)
-3. Open **Git Bash** or other terminal.
-4. Enter **cd [Local Workstation Path]**
-5. Enter **git clone [[Repo URL]](https://github.com/Botlhale-Setou/Leaderboard.git)**
-6. Enter **cd Leaderboard**
-7. Enter **npm start**
-<br><br><br>
+- **Save data to Leaderboard API service**
+- **Retrieve from Leaderboard API service**
+- **Display data in styled container**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com) currently unavailable.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Node.js & npm
+- A web browser
 
 
-## Author
-<br>
+### Setup
+
+Navigate to your desired folder and enter these commands:
+
+
+```sh
+  git clone git@github.com:myaccount/leaderboard.git
+  cd Leaderboard
+```
+
+
+### Install
+
+Install all dependencies with:
+
+```sh
+  npm i
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="authors"></a>
 
 👤 **Botlhale Setou**
 - GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
-- LinkedIn: [@botlhalesetou]https://www.linkedin.com/in/botlhalesetou/
+- LinkedIn: [@botlhalesetou](https://www.linkedin.com/in/botlhalesetou/)
 - Twitter: [@Botlhale_Setou](https://twitter.com/Botlhale_Setou)
 
-<br><br>
-## Show your support
-Give a ⭐️ if you like my project! It really helps!
 
-<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### [Copyright (c) 2022 Botlhale Setou](./LICENSE)
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **UI Improvement**
+- [ ] **Mobile version**
+- [ ] **Clear functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Botlhale-Setou/leaderboard/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a star ⭐
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Special thanks to [David Kasilia](https://www.linkedin.com/in/david-kasilia/) and the Microverse team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
