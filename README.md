@@ -97,6 +97,7 @@ To run the project, execute the following command:
 
 ## 👥 Author <a name="authors"></a>
 
+
 👤 **Botlhale Setou**
 - GitHub: [@Botlhale-Setou](https://github.com/Botlhale-Setou)
 - LinkedIn: [@botlhalesetou](https://www.linkedin.com/in/botlhalesetou/)
@@ -131,6 +132,7 @@ If you like this project, please give it a star ⭐
 Special thanks to [David Kasilia](https://www.linkedin.com/in/david-kasilia/) and the Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
